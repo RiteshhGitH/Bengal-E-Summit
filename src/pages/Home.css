@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+#main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents overflow on smaller screens */
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Fallback background image */
+#bgimg {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* Mobile view adjustments */
+@media (max-width: 900px) {
+  #video {
+    width: 100%;
+    height: auto; /* Adjust the height to maintain aspect ratio */
+    max-height: 100%; /* Ensure the video doesn't exceed the viewport height */
+    position: relative; /* Position it within the flow */
+    object-fit: contain; /* Ensure the video fits within its container */
+  }
+
+  #bgimg {
+    display: none; /* Keep the fallback image hidden unless it's necessary */
+    visibility: hidden;
+  }
+
+  * {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+}
+#logo {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full viewport width */
+  height: 50vh; /* Half viewport height */
+  position: relative; /* Allow centering with flexbox */
+}
+
+
+.apply-button {
+  z-index: 1;
+  display: inline-block; /* Makes the div behave like a button */
+  height: 114px; /* Fixed height */
+  width: 112px; /* Fixed width */
+  background-color: #e45a6c; /* Primary button color */
+  color: #151111; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 18px; /* Text size */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+  line-height: 44px; /* Center text vertically */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: underline; /* No underline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-image: linear-gradient(45deg, #e45a6c, #ebb0b2);
+  /* Adjust positioning */
+  position: absolute; /* Use relative positioning */
+  top: 50px; /* Move the button 10px down */
+  left: 25px; /* Move the button 10px left */
+}
+
+/* Hover state */
+.apply-button:hover {
+  background-color: #e80d14; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Active state */
+.apply-button:active {
+  background-color: #5b0617; /* Even darker on active */
+  transform: translateY(0); /* No lift on click */
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on active */
+}
+
+/* Focus state */
+.apply-button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 4px rgba(94, 15, 20, 0.5); /* Custom focus outline */
+}
+
+
+.GoldSponsor{
+display: inline-flex;
+width:100%;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.SponsorContainer{
+margin-left: 50px ;
+display: inline-flex;
+width: 240px;
+padding: 2rem;
+position: relative;
+}
+#sponsorpic{
+height:50px;
+width: 190px;
+object-fit: contain; 
+}
+
+/* General container styles */
+.card {
+  display: inline-block;
+  margin-left: 100px; /* Uniform margin around each card */
+  padding: 10px; /* Padding inside each card for inner spacing */ /* Optional border for card styling */
+  border-radius: 10px; /* Rounded corners for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center the content */
+  background-color: transparent; /* White background for contrast */
+}
+
+/* Styling the wrappers */
+.wrapper {
+  position: relative;
+  margin-left: 66px;
+  width: 100%;
+  padding-bottom: 100%; /* 1:1 Aspect Ratio */
+  overflow: hidden; /* Hide overflow to keep images contained */
+  border-radius: 2px; /* Match the card's border radius */
+  background-color:transparent; /* Background color for empty space */
+}
+
+/* Styling the cover images */
+.cover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Contain the image within the wrapper */
+}
+
+/* Styling the character images */
+.character {
+  margin-top: 10px; /* Margin between wrapper and character image */
+  max-width: 120px; /* Set a maximum width for the character image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styling for the text above the cards */
+.text {
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space between text and cards */
+  font-weight: bold; /* Bold text */
+}
+
+
+#reachus{
+display: inline-flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
+align-content: center;
+}
+#map{
+border-radius: 35px;
+border-left: 25px ;
+position: center;
+display: inline-flex;
+justify-items: center;
+align-items: center;
+width: 185vh;
+height: 70vh;
+margin-left: 70px; 
+}
+
+.devfolio-button-iframe{
+  display:flex;
+  z-index: 3;
+  position: relative;
+  top: 65%;
+}
+.mapcontainer{
+border-radius: 35px;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+.text-heading{
+  font-weight:100;
+  font-size:60px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+  position: relative;
+  font-family: nunito;
+  font-weight: 1000;
+}
+.break-text{
+  font-weight:100;
+  font-size:20px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+  position: relative;
+  font-family: nunito;
+  font-weight: 1000;
+}
+#bgimg{
+  display: none;
+  visibility: hidden;
+}
+@media (max-width:700px){
+#video{
+  display: none;
+  visibility: hidden;
+}
+#bgimg{
+  display: block;
+  visibility: visible;
+  width: 100%;
+  height:100%;
+  object-fit:cover;
+  position: absolute;
+}
+*{
+  overflow-x: hidden;
+}
+}
