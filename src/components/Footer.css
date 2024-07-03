@@ -1,65 +1,63 @@
 /* Sticky Icon Styling */
 .sticky-icon {
 	position: fixed;
-	bottom: 14px;
-	right: 14px;
+	bottom: 20px;
+	right: 20px;
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
-	border-radius: 40%;
-	font-size: 20px;
+	padding: 15px; /* Adjusted padding for larger size */
+	border-radius: 50%;
+	font-size: 50px; /* Increased from 40px */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	z-index: 1000;
 	transition: transform 0.3s ease-in-out;
-  }
-  
-  .sticky-icon:hover {
+}
+
+.sticky-icon:hover {
 	transform: scale(1.1);
-  }
-  
-  /* Footer Container Styling */
-  .footer-container {
-	background-color: #222;
+}
+
+/* Footer Container Styling */
+.footer-container {
+	background-color:transparent;
 	color: #fff;
-	padding: 30px 20px;
+	padding: 20px 10px;
 	text-align: center;
-  }
-  
-  /* Footer Links Styling */
-  .footer-links {
+}
+
+/* Social Icons Styling */
+.social-icons {
 	display: flex;
 	justify-content: center;
-	margin-top: 20px;
-  }
-  
-  .footer-links a {
+	align-items: center; /* Center icons vertically */
+	margin-top: 10px;
+	gap: 20px; /* Adds space between icons */
+}
+
+.social-icons a {
 	color: #ccc;
 	text-decoration: none;
-	font-size: 16px;
-	margin: 0 15px;
+	font-size: 50px; /* Increased from 40px */
 	transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
+}
+
+.social-icons a:hover {
 	color: #fbc2eb; /* Highlight color on hover */
-  }
-  
-  /* Social Icons Styling */
-  .social-icons {
-	display: flex;
-	justify-content: center;
+}
+
+.social-link {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.social-link svg {
+	width: 40px; /* Increased from 30px */
+	height: 40px; /* Increased from 30px */
+}
+
+/* Footer Text Styling */
+.footer-text {
 	margin-top: 20px;
-  }
-  
-  .social-icons a {
+	font-size: 14px;
 	color: #ccc;
-	text-decoration: none;
-	font-size: 20px;
-	margin: 0 10px;
-	transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-	color: #fbc2eb; /* Highlight color on hover */
-  }
-  
+}
