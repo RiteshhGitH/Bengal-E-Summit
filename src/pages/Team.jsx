@@ -139,7 +139,7 @@ export default function Team() {
       </div></a>
     <div class="property-description">
       <h5>Anuran De</h5>
-      <p>Database and Logistics Lead</p>
+      <p>Database and Web Lead</p>
       <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
@@ -158,6 +158,23 @@ export default function Team() {
       <h5>Saranya Chattopadhyay</h5>
       <p>Corporate Relations Lead</p>
       <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image13">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Aahana Chowdhury</h5>
+      <p>Content and Logistics Lead</p>
+      <a href="linkedin.com/in/aahana-chowdhury-522837274"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
