@@ -19,7 +19,7 @@ export default function Prizes() {
             </div>
             <div class="flip-card-back">
               <h1 class="p2">2nd</h1>
-              <p>Will be revealed</p>
+              <p>Will be announced soon</p>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function Prizes() {
             </div>
             <div class="flip-card-back">
               <h1 class="p1">1st</h1>
-              <p>Will be revealed</p>
+              <p>Will be announced soon</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Prizes() {
             </div>
             <div class="flip-card-back">
               <h1 class="p3">3rd</h1>
-              <p>Will be revealed</p>
+              <p>Will be announced soon</p>
             </div>
           </div>
         </div>
