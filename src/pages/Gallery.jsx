@@ -8,7 +8,7 @@ import g5 from '../assets/gallery/1666612290295.jpeg'
 import g6 from '../assets/gallery/1666632949384.jpeg'
 import g7 from '../assets/gallery/1666632949980.jpeg'
 import g8 from '../assets/gallery/1666633727766.jpeg'
-import g9 from '../assets/gallery/1666633728084.jpeg'
+import g9 from '../assets/gallery/2.jpg'
 import g10 from '../assets/gallery/1.jpg'
 import g11 from '../assets/logos/web dev.png'
 
