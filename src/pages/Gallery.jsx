@@ -6,7 +6,7 @@ import g3 from '../assets/gallery/3.jpg'
 import g4 from '../assets/gallery/2.jpg'
 import g5 from '../assets/gallery/1.jpg'
 import g11 from '../assets/logos/web dev.png'
-import g10 from "../assets/gallery/10.png";
+// import g10 from "../assets/gallery/10.png";
 
 export default function Gallery() {
   return (
@@ -71,7 +71,7 @@ export default function Gallery() {
   </div>
   <div class="gallery-image">
     <div class="img-box">
-      <img src={g10} alt="" />
+      <img src={g4} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
