@@ -45,7 +45,7 @@
   }
 
   #bgimg {
-    display: none; /* Keep the fallback image hidden unless it's necessary */
+    display: none;
     visibility: hidden;
   }
 
@@ -178,20 +178,23 @@ object-fit: contain;
 
 
 #reachus{
+  /* background-color: #e45a6c; */
+  width: 80%;
 display: inline-flex;
 flex-wrap: wrap;
-position: relative;
 justify-content: center;
+
 align-content: center;
 }
 #map{
-border-radius: 35px;
+border-radius: 25px;
 border-left: 25px ;
 position: center;
+margin: auto;
 display: inline-flex;
 justify-items: center;
 align-items: center;
-width: 185vh;
+width: 80%;
 height: 70vh;
 margin-left: 70px; 
 }

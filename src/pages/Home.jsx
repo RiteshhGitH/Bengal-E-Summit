@@ -34,8 +34,8 @@ export default function Home
       </Helmet> 
        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'></link>  
           <div id="main">
-        <img id='bgimg' src={bgimg}></img>
-        <video id="video" src={bganmation} autoPlay loop muted/>
+        {/* <img id='bgimg' src={bgimg}></img> */}
+        {/* <video id="video" src={bganmation} autoPlay loop muted/> */}
         
         <a
           href="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/viewform?edit_requested=true" // Replace with your actual apply now URL
@@ -142,7 +142,7 @@ export default function Home
   </div>
 
     <div class="text">REACH US</div>
-    <div id='reachus'>
+    <div id='reachus' className=''>
     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1255138030992!2d88.43277047122935!3d22.574408499928637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02751153ddb371%3A0x816e6fee5a5aac55!2sIEM%20Gurukul%20Building!5e0!3m2!1sen!2sin!4v1681554005746!5m2!1sen!2sin" width={100} title="Google Maps Embed" ></iframe>
     </div>
 
