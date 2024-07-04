@@ -1,7 +1,7 @@
 import React from 'react'
 import bridge from '../assets/bridge.png'
 import './Gallery.css'
-import g2 from '../assets/gallery/4.jpeg'
+import g2 from '../assets/gallery/4.jpg'
 import g3 from '../assets/gallery/3.jpg'
 import g4 from '../assets/gallery/2.jpg'
 import g5 from '../assets/gallery/1.jpg'
