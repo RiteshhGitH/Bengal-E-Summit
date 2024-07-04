@@ -117,24 +117,22 @@ justify-content: center;
 align-items: center;
 }
 .SponsorContainer{
-margin-left: 50px ;
+/* margin-left: 50px ; */
 display: inline-flex;
-width: 240px;
+/* width: 240px; */
 padding: 2rem;
 position: relative;
 }
 #sponsorpic{
-height:50px;
-width: 190px;
+/* height:50px; */
+/* width: 190px; */
+width: 100%;
 object-fit: contain; 
 }
 
 /* General container styles */
 .card {
   display: inline-block;
-  margin-left: 100px; /* Uniform margin around each card */
-  padding: 10px; /* Padding inside each card for inner spacing */ /* Optional border for card styling */
-  border-radius: 10px; /* Rounded corners for cards */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   text-align: center; /* Center the content */
   background-color: transparent; /* White background for contrast */
@@ -143,10 +141,10 @@ object-fit: contain;
 /* Styling the wrappers */
 .wrapper {
   position: relative;
-  margin-left: 66px;
+  /* margin-left: 66px; */
   width: 100%;
   padding-bottom: 100%; /* 1:1 Aspect Ratio */
-  overflow: hidden; /* Hide overflow to keep images contained */
+  /* overflow: hidden; */
   border-radius: 2px; /* Match the card's border radius */
   background-color:transparent; /* Background color for empty space */
 }
@@ -158,7 +156,7 @@ object-fit: contain;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Contain the image within the wrapper */
+  /* object-fit: contain; */
 }
 
 /* Styling the character images */
